@@ -5,6 +5,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="root-co"/>
+			<item value="lombok"/>
+			<item value="member"/>
 			<item value="jstl"/>
 			<item value="build"/>
 		</list>
