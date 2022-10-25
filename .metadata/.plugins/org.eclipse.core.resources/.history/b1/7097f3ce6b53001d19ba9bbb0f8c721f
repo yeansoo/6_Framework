@@ -1,0 +1,7 @@
+package edu.kh.project.main.controller;
+
+
+@Controller
+public class MainController {
+	
+}
