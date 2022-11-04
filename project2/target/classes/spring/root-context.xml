@@ -22,8 +22,8 @@
 		<property name="driverClassName"
 			value="oracle.jdbc.driver.OracleDriver" />
 		<property name="url"
-			value="jdbc:oracle:thin:@localhost:1521:xe" />
-		<property name="username" value="project" />
+			value="jdbc:oracle:thin:@115.90.212.22:9000:xe" />
+		<property name="username" value="project_kys" />
 		<property name="password" value="project1234" />
 
 		<!-- SQL이 수행된 후 자동으로 Commit 되는것을 지정 -->
@@ -77,10 +77,6 @@
 	</bean>
 
 
-	<!-- 트랜잭션 처리 시 @Transactional 어노테이션 사용할 예정 @Transactional : 클래스 또는 메서드 수행 
-		후 트랜잭션 처리를 하라고 알려주는 어노테이션 -> 해당 어노테이션을 인식하라는 설정이 필요함 -> annotation-driven -->
-	<tx:annotation-driven
-		transaction-manager="transactionManager" />
-
+	
 
 </beans>
