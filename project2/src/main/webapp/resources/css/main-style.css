@@ -467,4 +467,21 @@ label[for='header-menu-toggle']:hover{
 
 
 
-    
+#content-1-2{
+    width: 300px;
+    margin:50px auto;
+}
+
+#content-1-2 tr{
+    text-align: center;
+}
+
+
+.secession{
+    background-color: gray;
+}
+
+.secession>td:first-of-type{
+    text-decoration: line-through;
+    /* 가운데 선 */
+}

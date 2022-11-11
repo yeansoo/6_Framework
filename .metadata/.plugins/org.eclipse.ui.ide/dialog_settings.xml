@@ -102,4 +102,10 @@
 		<item value="org.springsource.sts.package:3.9.18.202109140905-RELEASE-e421"/>
 		<item value="org.springsource.sts:3.9.18.202109140905-RELEASE"/>
 	</list>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_WIDTH" value="540"/>
+		<item key="DIALOG_HEIGHT" value="360"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
 </section>
