@@ -7,3 +7,5 @@ INDEX VERSION 1.131
 /project2/src/main/java
 /Users/kimyeonsoo/Documents/workspace/6_Framework/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1338605509.index
 /project2/src/main/java
+/Users/kimyeonsoo/Documents/workspace/6_Framework/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/318277232.index
+/project2/src/main/java

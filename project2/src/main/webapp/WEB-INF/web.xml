@@ -4,6 +4,8 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee https://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 
 	<!-- The definition of the Root Spring Container shared by all Servlets and Filters -->
+	
+	
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		
@@ -12,6 +14,7 @@
 		<param-value>
 			classpath:spring/root-context.xml
 			classpath:spring/spring-security.xml
+			classpath:spring/email-context.xml
 		</param-value>
 	</context-param>
 	
@@ -21,9 +24,9 @@
 	</listener>
 
 	<!-- Processes application requests -->
+	
 	<!-- 
 			서버를 start 시작하자 마자 DispatcherServlet을 생성하는데 
-			
 	 -->
 	<servlet>
 		<servlet-name>appServlet</servlet-name>

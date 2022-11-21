@@ -15,7 +15,7 @@
 	 		<result property="memberTel" column="MEMBER_TEL"/>
 	 		<result property="memberAddress" column="MEMBER_ADDRESS"/>
 	 		<result property="memberDeleteFlag" column="MEMBER_DEL_FL"/>
-	 		<result property="profileImg" column="PROFILE_IMG"/>
+	 		<result property="profileImage" column="PROFILE_IMG"/>
 	 		<result property="authority" column="AUTHORITY"/>
 	 		<result property="enrollDate" column="ENROLL_DATE"/>
 	 		
@@ -53,4 +53,13 @@
 	 		MEMBER_DEL_FL='Y'
 	 		WHERE MEMBER_NO=#{memberNo}
    </update>
+   
+   <!-- 프로필 이미지 수정 -->
+   <update id="updateProfile" parameterType="Member">
+   		UPDATE "MEMBER" SET
+	 		PROFILE_IMG=#{profileImage}
+	 		WHERE MEMBER_NO=#{memberNo}
+   </update>
+   
+   
 </mapper>
